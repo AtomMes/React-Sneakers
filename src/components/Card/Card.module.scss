@@ -6,9 +6,11 @@
     border-radius: 40px;
     margin-bottom: 30px;
     margin-right: 40px;
-  
-  
     transition: 0.2s ease-in-out;
+
+    @media (max-width: 770px) {
+      width:30% ;
+    }
   
   
   .plus{

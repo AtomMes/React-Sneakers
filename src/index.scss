@@ -34,6 +34,14 @@ header {
   h1 {
     margin: 0;
   }
+
+
+  .content-items{
+
+    @media (max-width: 770px) {
+        flex-wrap: wrap;
+    }
+  }
 }
 
 .search-block {

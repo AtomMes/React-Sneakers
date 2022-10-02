@@ -4,10 +4,7 @@ import Card from '../components/Card/Card'
 
 
 export default function Favorites({ onFavorite }) {
-
     const state = React.useContext(AppContext)
-    console.log(state.favorites)
-
     return (
         <div className="Content p-40" >
 

@@ -25,14 +25,14 @@ export default function Home({searchValue, onChangeSearchInput, items, onAddToFa
 
     return (
         <div className="Content p-40" >
-            <div className="d-flex align-center mb-40 justify-between" >
+            <div className="d-flex align-center mb-40 justify-between">
                 <h1>{searchValue ? `Searching ${searchValue}` : 'All sneakers'}</h1>
                 <div className="search-block d-flex" >
                     <img src='/img/search.svg' alt='Search' />
                     <input onChange={onChangeSearchInput} value={searchValue} placeholder="Search..." />
                 </div>
             </div>
-            <div className="d-flex flex-wrap ">
+            <div className="content-items d-flex justify-center">
                 {renderItems()}
             </div>
         </div>

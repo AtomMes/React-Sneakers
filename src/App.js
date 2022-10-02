@@ -96,7 +96,6 @@ function App() {
 
   const onChangeSearchInput = (e) => {
     setSearchValue(e.target.value)
-    console.log(searchValue)
   }
 
   const isItemAdded = (id) => {
