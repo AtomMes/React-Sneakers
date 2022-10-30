@@ -11,7 +11,7 @@ export default function Home({searchValue, onChangeSearchInput, items, onAddToFa
     const renderItems = () => {
         const filterItems = items && items.filter((item) => item.name.toLowerCase().includes(searchValue.toLowerCase()))
         return (
-            (isLoading ? [...Array(8)] : filterItems)
+            (isLoading ? [...Array(4)] : filterItems)
                 .map((item) =>
                     <Card
                         loading={isLoading}
